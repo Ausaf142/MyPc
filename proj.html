@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 1440px;
+            margin: auto;
+        }
+
+        header {
+            background-color: rgb(231, 187, 12);
+            max-width: 1600px;
+            height: 70px;
+            margin: 0px 0px;
+            display: flex;
+            justify-content: center;
+            flex-flow: row;
+            align-items: center;
+
+
+
+        }
+
+        .header1 {
+            align-items: center;
+            justify-content: center;
+            width: 900px;
+            display: flex;
+
+        }
+
+        .header2 {
+
+            display: grid;
+            grid-template-columns: 179px 174px 150px;
+            margin-left: 66px;
+            width: 400px;
+            color: white;
+            font-size: larger;
+            font-weight: 500;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+
+        #search {
+            height: 30px;
+            width: 400px;
+            margin-left: 270px;
+            border: 2px solid white;
+            border-radius: 15px;
+        }
+
+
+        .header1>img {
+            height: 25px;
+            width: 200px;
+        }
+
+        .slider {
+            display: flex;
+            flex-direction: row;
+            flex-flow: row;
+            overflow: scroll;
+            object-fit: fill;
+            height: 323px;
+
+        }
+
+        .slide-item {
+            width: 400px;
+            height: 250px;
+            margin: 20px;
+        }
+
+        .slide-item>img {
+            width: 400px;
+            height: 250px;
+            border-radius: 35px;
+            outline-color: orange;
+            outline-style: double;
+            padding: 12px;
+        }
+
+        .story-item {
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            margin: 0px 20px;
+            border: 1px solid white;
+            border-radius: 500px;
+
+
+        }
+
+        .story-item>img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            outline-style: double;
+            outline-color: orange;
+            outline-width: 7px;
+
+
+        }
+
+
+        .story {
+            display: flex;
+            flex-direction: row;
+            flex-flow: row;
+            justify-content: center;
+
+        }
+
+        .Live-item {
+            min-width: 250px;
+            height: 300px;
+            margin: 20px;
+            position: relative;
+            box-shadow: 1px 1px 6px 1px orange;
+            border-radius: 15px;
+        }
+
+        .box1 {
+            width: 1440px;
+            display: flex;
+        }
+
+
+        .upper {
+            height: 170px;
+            width: 249px;
+            border-radius: 15px 15px 0px 0px;
+            /* background-color: red; */
+            position: absolute;
+
+
+        }
+
+        .lower {
+            height: 170px;
+            width: 249px;
+
+            position: absolute;
+
+
+        }
+
+        .brandname {
+            position: absolute;
+            margin-top: 151px;
+            margin-left: 7px;
+
+
+        }
+
+        .branditem {
+            width: 248px;
+            padding: 22px 2px;
+            display: flex;
+            gap: 114px;
+        }
+
+        .descp {
+            margin: 2px;
+            width: 240px;
+        }
+
+        .descp>p {
+            margin: 0px;
+            font-size: smaller;
+            text-align: justify;
+            width: 235px;
+        }
+
+        .box1 {
+            overflow: scroll;
+        }
+
+        .deal {
+            width: 1440px;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+
+        }
+
+        .card {
+            /* min-width: 300px;
+            height: 200px; */
+            margin: auto;
+        }
+
+        .card>img {
+            min-width: 300px;
+            height: 170px;
+            border-radius: 25px;
+        }
+
+        .dealTab {
+            width: 1400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .tabs {
+            width: auto;
+            margin-top: 30px;
+            height: 30px;
+            border: 3px solid orange;
+            border-radius: 25px;
+            padding: 8px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 200;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header1">
+                <img src="./img/119-1192555_freekaamaal-clipart.png" alt="">
+                <input id="search" type="search" placeholder="search">
+            </div>
+            <div class="header2">
+                <span>All Categories</span>
+                <span>Top Stores</span>
+                <span>Sign In</span>
+
+            </div>
+        </header>
+        <div class="slider">
+            <div class="slide-item"> <img src="./img/mobile_bankjpg.webp" style="height: 250px; width: 400px;" alt="">
+            </div>
+            <div class="slide-item"> <img src="./img/mobile_bankjpg.webp" style="height: 250px; width: 400px;" alt="">
+            </div>
+            <div class="slide-item"> <img src="./img/mobile_bankjpg.webp" style="height: 250px; width: 400px;" alt="">
+            </div>
+            <div class="slide-item"> <img src="./img/mobile_bankjpg.webp" style="height: 250px; width: 400px;" alt="">
+            </div>
+
+
+        </div>
+        <div>
+            <div>
+                <h1 style="margin: left 8px; ;">Deal Stories</h1>
+            </div>
+            <div class="story">
+
+                <div class="story-item"><img src="./img/stry.webp" alt=""></div>
+                <div class="story-item"><img src="./img/stry.webp" alt=""></div>
+                <div class="story-item"><img src="./img/stry.webp" alt=""></div>
+                <div class="story-item"><img src="./img/stry.webp" alt=""></div>
+                <div class="story-item"><img src="./img/stry.webp" alt=""></div>
+                <div class="story-item"><img src="./img/stry.webp" alt=""></div>
+                <div class="story-item"><img src="./img/stry.webp" alt=""></div>
+                <div class="story-item"><img src="./img/stry.webp" alt=""></div>
+                <div class="story-item"><img src="./img/stry.webp" alt=""></div>
+
+
+
+            </div>
+
+        </div>
+        <div>
+            <div>
+                <h1 style="margin: left 8px; ;">Live: People Veiwing</h1>
+            </div>
+
+            <div class="box1">
+
+                <div class="Live-item">
+                    <span class="upper">
+                        <img src="./img/deal.webp"
+                            style="width: 240px; height: 170px;border-radius: 15px 15px 0px 0px;">
+                    </span>
+                    <span class="lower">
+                        <div class="brandname">
+                            <div class="branditem">
+                                <span>Denevar</span>
+                                <span class="time" style="color: grey;">11 hr ago</span>
+                            </div>
+                            <div class="descp">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, temporibus.</p>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+                <div class="Live-item">
+                    <span class="upper">
+                        <img src="./img/deal.webp"
+                            style="width: 240px; height: 170px;border-radius: 15px 15px 0px 0px;">
+                    </span>
+                    <span class="lower">
+                        <div class="brandname">
+                            <div class="branditem">
+                                <span>Denevar</span>
+                                <span class="time" style="color: grey;">11 hr ago</span>
+                            </div>
+                            <div class="descp">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, temporibus.</p>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+                <div class="Live-item">
+                    <span class="upper">
+                        <img src="./img/deal.webp"
+                            style="width: 240px; height: 170px;border-radius: 15px 15px 0px 0px;">
+                    </span>
+                    <span class="lower">
+                        <div class="brandname">
+                            <div class="branditem">
+                                <span>Denevar</span>
+                                <span class="time" style="color: grey;">11 hr ago</span>
+                            </div>
+                            <div class="descp">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, temporibus.</p>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+                <div class="Live-item">
+                    <span class="upper">
+                        <img src="./img/deal.webp"
+                            style="width: 240px; height: 170px;border-radius: 15px 15px 0px 0px;">
+                    </span>
+                    <span class="lower">
+                        <div class="brandname">
+                            <div class="branditem">
+                                <span>Denevar</span>
+                                <span class="time" style="color: grey;">11 hr ago</span>
+                            </div>
+                            <div class="descp">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, temporibus.</p>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+                <div class="Live-item">
+                    <span class="upper">
+                        <img src="./img/deal.webp"
+                            style="width: 240px; height: 170px;border-radius: 15px 15px 0px 0px;">
+                    </span>
+                    <span class="lower">
+                        <div class="brandname">
+                            <div class="branditem">
+                                <span>Denevar</span>
+                                <span class="time" style="color: grey;">11 hr ago</span>
+                            </div>
+                            <div class="descp">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, temporibus.</p>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+                <div class="Live-item">
+                    <span class="upper">
+                        <img src="./img/deal.webp"
+                            style="width: 240px; height: 170px;border-radius: 15px 15px 0px 0px;">
+                    </span>
+                    <span class="lower">
+                        <div class="brandname">
+                            <div class="branditem">
+                                <span>Denevar</span>
+                                <span class="time" style="color: grey;">11 hr ago</span>
+                            </div>
+                            <div class="descp">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, temporibus.</p>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+                <div class="Live-item">
+                    <span class="upper">
+                        <img src="./img/deal.webp"
+                            style="width: 240px; height: 170px;border-radius: 15px 15px 0px 0px;">
+                    </span>
+                    <span class="lower">
+                        <div class="brandname">
+                            <div class="branditem">
+                                <span>Denevar</span>
+                                <span class="time" style="color: grey;">11 hr ago</span>
+                            </div>
+                            <div class="descp">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, temporibus.</p>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+        <div class="dealHead">
+            <h1>Deal of the Day</h1>
+        </div>
+        <div class="deal">
+            <div class="card">
+                <img src="./img/dealOfDay.webp" alt="">
+            </div>
+
+            <div class="card">
+                <img src="./img/dealOfDay.webp" alt="">
+            </div>
+            <div class="card">
+                <img src="./img/dealOfDay.webp" alt="">
+            </div>
+            <div class="card">
+                <img src="./img/dealOfDay.webp" alt="">
+            </div>
+        </div>
+        <div class="dealTab">
+            <div class="tabs">
+                <p style="margin: 5px 15px;"><strong>Hot Deal</strong></p>
+            </div>
+            <div class="tabs">
+                <p style="margin: 5px 15px;"><strong>Trending</strong></p>
+            </div>
+            <div class="tabs">
+                <p style="margin: 5px 15px;"><strong>100% Cashback</strong></p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>

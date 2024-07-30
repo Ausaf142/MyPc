@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and text shadow</title>
+    <style>
+.container{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.card{
+    padding: 23px 12px;
+    margin: 23px 12px;
+    /* border: 2px solid red; */
+    background-color: burlywood;
+    /*neeche ko dala hai to positive dalo ar upar ko dalna hai to negative dal-->  X-Y axis ways dalna hai*/
+    /* offset-axis X-Y coordinate > blur > spread area  */
+    box-shadow:10px 13px green;
+    /* inset-axis X-Y coordinate > blur > spread area---ander ki traf shadow hoga */
+    /*double shadow*/
+    box-shadow:inset -10px -13px  rgb(33, 5, 103),10px 13px green;
+    
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>Card1</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque accusamus similique adipisci rem facere eius?</p>
+            </div>
+        <div class="card" id="card-2">
+            <h2>Card2</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque accusamus similique adipisci rem facere eius?</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>Card3</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque accusamus similique adipisci rem facere eius?</p>
+        </div>
+    </div>
+</body>
+</html>

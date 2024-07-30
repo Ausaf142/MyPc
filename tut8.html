@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+</head>
+
+<body>
+    <h3>Form tag</h3>
+    <form action="backened.php">
+        <label for="name">Name</label>
+    <div>
+        <input type="text" placeholder="Your Name" name="myname" id="name" class="">
+    </div>
+    <br> <!--not recommended for separtion-->
+    <label for="roll">Roll</label>
+    <div>
+        <input type="text" placeholder="Roll number" name="myroll" id="roll" class="r">
+    </div>
+    <br>
+    <div>
+       <input type="email" name="myemail" id="email">
+    </div>
+    <br>
+    <div>
+        <input type="date" name="mydate">
+    </div>
+    <br>
+    <div>
+        <input type="number" name="mybonus">
+    </div>
+    <br>
+    <div>
+        Are you disable <input type="checkbox" name="mycheckbox" checked>
+    </div>
+    <br>
+    <div>
+      Gender:  Male  <input type="radio" name="mygender"> Female <input type="radio" name="mygender">
+      
+    </div>
+    <br>
+    <div>
+       <input type="reset" value="ResetNow"> 
+    </div>
+    <br>
+    <div>
+      write yurself <br><textarea name="myText" id="" cols="100" rows="10"></textarea>
+    </div>
+
+    <br>
+    <div>
+        <input type="submit" value="Submit Now">
+    </div>
+    
+</form> 
+</body>
+
+</html>
